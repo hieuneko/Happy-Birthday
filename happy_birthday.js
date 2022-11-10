@@ -20,6 +20,8 @@ $(document).ready(function() {
     $(".next").click(function() {
         $(".birthday-cake").animate({ "opacity": 0 }, "fast");
         $("body").css("overflow", "hidden");
+        $('body').css("width", "100%");
+        $('body').css("height", "100%");
         $(".star-sky").css("display", "block");
         setTimeout(function() {
             $("#firework").css("display", "block");
