@@ -414,7 +414,8 @@ hr {
 .star-sky {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .shootingStarContainer:nth-child(1) {
@@ -423,6 +424,7 @@ hr {
     height: 130%;
     transform: rotate(44deg);
     z-index: 10;
+    overflow: hidden;
 }
 
 .shootingStarContainer:nth-child(2) {
@@ -431,6 +433,7 @@ hr {
     height: 130%;
     transform: rotate(38deg);
     z-index: 10;
+    overflow: hidden;
 }
 
 .shootingStarContainer:nth-child(3) {
@@ -439,6 +442,7 @@ hr {
     height: 130%;
     transform: rotate(42deg);
     z-index: 10;
+    overflow: hidden;
 }
 
 .shootingStar {

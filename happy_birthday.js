@@ -23,8 +23,9 @@ $(document).ready(function() {
         $('body').css("width", "100%");
         $('body').css("height", "100%");
         $(".star-sky").css("display", "block");
+        $(".star-sky").css("position","relative");
         setTimeout(function() {
-            $("#firework").css("display", "block");
-        }, 200);
+            $(".firework-container").css("display", "block");
+        }, 1500);
     });
 });
